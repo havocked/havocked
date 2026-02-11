@@ -22,7 +22,7 @@ Every workflow should be automatable (no manual steps left hanging)
 
 ## Previously
 
-📱 iOS development (Swift, Obj-C) — shipped apps at scale, built testing tools like [swift-rail](https://github.com/havocked/swift-rail), and contributed to open-source.
+📱 iOS development (Swift, Obj-C) — shipped apps at scale and contributed to open-source.
 
 ## Get in Touch
 
