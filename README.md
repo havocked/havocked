@@ -1,29 +1,63 @@
-# Hey, I'm Nate 👋
+# Hi, I'm Nate 👋
 
-Programmer based in Leipzig, Germany. Background in iOS (Swift/Obj-C), now building **CLI-first tools** and exploring **AI-powered workflows**.
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS" />
+  <img src="https://img.shields.io/badge/LLMs-8A2BE2?style=flat-square" alt="LLMs" />
+</p>
 
-I believe the best tools are composable, verifiable, and automatable — no manual steps left hanging.
+🏃 Runner · 🛠️ Building AI tools I actually use · 🧱 Architecture over shortcuts
 
-## What I'm Building
+I spend most of my free cycles on **agent engineering** — turning LLMs into things you'd trust with a real decision, not just a demo. Right now that means a running coach that lives in my pocket.
 
-🎵 **[tidal-cli](https://github.com/havocked/tidal-cli)** — Control the TIDAL desktop app from the terminal. TypeScript, Chrome DevTools Protocol, zero auth overhead. Search, play, manage playlists — all pipeable.
+---
 
-🎧 **[curator](https://github.com/havocked/curator)** — CLI toolkit for intelligent playlist curation. Genre discovery via MusicBrainz, energy-arc arrangements, provider-agnostic design. Pairs with tidal-cli.
+## 🔧 What I'm building
 
-Together they form a composable music pipeline: `curator discover --genre jazz | tidal playlist create "Late Night Jazz"`
+### 🏃 [garmin-coach](https://github.com/havocked/garmin-coach)
+A Telegram bot that reads my Garmin data and actually coaches me on it. **smolagents + Ollama Cloud**, structured training plans, a dashboard, and real workouts (RepeatGroups, not lap-button guesses) that sync back to the watch. The goal isn't a chatbot that talks about running — it's a coach that adjusts the week when Tuesday's interval goes sideways.
 
-## Philosophy
+Currently cleaning it up as a portfolio piece on the road to open-sourcing it.
 
-```
-Every tool should be composable (pipe-friendly, CLI-first)
-Every action should be verifiable (did it work? show me)
-Every workflow should be automatable (no manual steps left hanging)
-```
+### 📺 natflix
+A self-hosted streaming box for the household. OVH + Ubuntu, nothing fancy — but it stays up, and the internet still feels like the internet.
 
-## Previously
+---
 
-📱 iOS development (Swift, Obj-C) — shipped apps at scale and contributed to open-source.
+## 🎯 What I'm focused on right now
 
-## Get in Touch
+- **Evals** — shipping an agent is easy; knowing it still works next month is the hard part
+- **Model routing** — the right model for the right subtask, not "always Opus"
+- **Observability** — seeing what the agent actually did vs. what you hoped it did
+- **Open-source launch** — prepping garmin-coach for a public release
 
-📍 Leipzig, Germany
+---
+
+## 🧠 How I work
+
+- Function before personality — it has to do the thing before it gets a voice
+- Tests and quality gates are sacred — never weaken the test to make it pass
+- Uniform data shapes — same type, same structure, always
+- Boring architecture beats clever architecture, every time
+
+---
+
+## 🖥️ The setup
+
+- **M4 Mac Mini** running bots under `launchd`, Claude Code sessions living in `tmux` so my laptop lid can close without killing anything
+- **Ollama Cloud** for most LLM calls — generous free tier, plenty of headroom for a solo builder
+- **Python + TypeScript**, whichever the problem asks for
+
+---
+
+## 🏃 When I'm not coding
+
+Running. No race on the calendar right now, which means more base miles and fewer intervals — the block where the coach bot earns its keep.
+
+---
+
+## 📫 Say hi
+
+- 🐙 [@havocked](https://github.com/havocked)
+- 📧 natmartin31@gmail.com
