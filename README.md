@@ -9,19 +9,27 @@
 
 🏃 Runner · 🛠️ Building AI tools I actually use · 🧱 Architecture over shortcuts
 
-I spend most of my free cycles on **agent engineering** — turning LLMs into things you'd trust with a real decision, not just a demo. Right now that means a running coach that lives in my pocket.
+I spend most of my free cycles on **agent engineering** — turning LLMs into things you'd trust with a real decision, not just a demo. CLI-first, composable, verifiable.
 
 ---
 
 ## 🔧 What I'm building
 
-### 🏃 [garmin-coach](https://github.com/havocked/garmin-coach)
-A Telegram bot that reads my Garmin data and actually coaches me on it. **smolagents + Ollama Cloud**, structured training plans, a dashboard, and real workouts (RepeatGroups, not lap-button guesses) that sync back to the watch. The goal isn't a chatbot that talks about running — it's a coach that adjusts the week when Tuesday's interval goes sideways.
+### 📅 [apple-calendar-bridge](https://github.com/havocked/apple-calendar-bridge)
+A safe, agent-friendly bridge between LLM tools and Apple Calendar on macOS. Structured access for agents, without the "please don't delete my life" risk.
 
-Currently cleaning it up as a portfolio piece on the road to open-sourcing it.
+### 🎵 [tidal-cli](https://github.com/havocked/tidal-cli)
+Control the TIDAL desktop app from the terminal. TypeScript + Chrome DevTools Protocol, zero auth overhead — search, play, manage playlists, all pipeable.
 
-### 📺 natflix
-A self-hosted streaming box for the household. OVH + Ubuntu, nothing fancy — but it stays up, and the internet still feels like the internet.
+### 🎧 [curator](https://github.com/havocked/curator)
+CLI-first playlist curation toolkit. Genre discovery via MusicBrainz, energy-arc arrangements, provider-agnostic. Pairs with `tidal-cli`:
+
+```
+curator discover --genre jazz | tidal playlist create "Late Night Jazz"
+```
+
+### 🚆 [bahn-cli](https://github.com/havocked/bahn-cli)
+Deutsche Bahn from the command line. Agent-first, JSON-native, cookie auth.
 
 ---
 
@@ -30,7 +38,7 @@ A self-hosted streaming box for the household. OVH + Ubuntu, nothing fancy — b
 - **Evals** — shipping an agent is easy; knowing it still works next month is the hard part
 - **Model routing** — the right model for the right subtask, not "always Opus"
 - **Observability** — seeing what the agent actually did vs. what you hoped it did
-- **Open-source launch** — prepping garmin-coach for a public release
+- **Composable CLIs** — every tool pipe-friendly, every action verifiable
 
 ---
 
@@ -43,21 +51,13 @@ A self-hosted streaming box for the household. OVH + Ubuntu, nothing fancy — b
 
 ---
 
-## 🖥️ The setup
-
-- **M4 Mac Mini** running bots under `launchd`, Claude Code sessions living in `tmux` so my laptop lid can close without killing anything
-- **Ollama Cloud** for most LLM calls — generous free tier, plenty of headroom for a solo builder
-- **Python + TypeScript**, whichever the problem asks for
-
----
-
 ## 🏃 When I'm not coding
 
-Running. No race on the calendar right now, which means more base miles and fewer intervals — the block where the coach bot earns its keep.
+Running. No race on the calendar right now, which means more base miles and fewer intervals.
 
 ---
 
 ## 📫 Say hi
 
-- 🐙 [@havocked](https://github.com/havocked)
-- 📧 natmartin31@gmail.com
+- [github.com/havocked](https://github.com/havocked)
+- natmartin31@gmail.com
